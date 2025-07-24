@@ -1,0 +1,70 @@
+.thumbnail {
+  width: 100%;
+}
+
+.ai {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: 500; /* FIXED: removed 'px' — font-weight should be a number or keyword */
+  line-height: 20px;
+}
+
+.mar {
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 6px;
+}
+
+.view {
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 10px;
+}
+
+.channel-pic {
+  /* Optional padding or margin can be added */
+}
+
+.video-info {
+  /* Optional spacing */
+}
+
+.profile-pic {
+  width: 36px;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  padding: 20px;
+  margin-top: 70px;  /* space for header */
+  margin-left: 80px; /* space for sidebar */
+}
+
+.video-time {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
